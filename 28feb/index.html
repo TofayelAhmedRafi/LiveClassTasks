@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/icon" href="./Bangladesh.png">
+    <title>learning and earning monitoring system : welcome</title>
+</head>
+<body>
+
+    <h2 style="color:#EC8701";"> Student Registration Form</h2>
+    <hr>
+    <h3>Please enter relevent information ----------------------------------------------</h3>
+
+    <table style="width: 100%; border-collapse: collapse;">
+        <tr>
+            <!-- Left Column (Personal Information) -->
+            <td style="width: 50%; vertical-align: top; padding: 10px; border-right: 2px solid black;">
+                <form action="#" method="POST" enctype="multipart/form-data">
+                    
+                    <label>District (<sub>Institute District: Where you want to do your course</sub>) *</label><br>
+                    <select name="district" required>
+
+                        <option value="">--Select One--</option>
+                        
+                        <option value="Dhaka">Dhaka</option>
+                        <option value="Gazipur">Gazipur</option>
+                        <option value="KishoreGanj">KishoreGanj</option>
+                        <option value="ManikGanj">ManikGanj</option>
+                        <option value="MunshiGanj">MunshiGanj</option>
+                        <option value="NarayanGanj">NarayanGanj</option>
+                        <option value="Narshingdi">Narshingdi</option>
+                        <option value="Tangail">Tangail</option>
+                        <option value="Faridpur">Faridpur</option>
+                        <option value="Gopalganj">Gopalganj</option>
+                        <option value="Madaripur">Madaripur</option>
+                        <option value="Rajbari">Rajbari</option>
+                        <option value="Shariatpur">Shariatpur</option>
+
+                        <option value="Chittagong">Chittagong</option>
+                        <option value="Brahmanbaria">Brahmanbaria</option>
+                        <option value="Comilla">Comilla</option>
+                        <option value="Chandpur">Chandpur</option>
+                        <option value="Laksmipur">Laksmipur</option>
+                        <option value="Maijdee">Maijdee</option>
+                        <option value="Feni">Feni</option>
+                        <option value="Khagrachhari">Khagrachhari</option>
+                        <option value="Rangamati">Rangamati</option>
+                        <option value="Bandarban">Bandarban</option>
+                        <option value="Cox's Bazar">Cox's Bazar</option>
+
+                        <option value="Rjashahi">Rjashahi</option>
+                        <option value="Natore">Natore</option>
+                        <option value="Pabna">Pabna</option>
+                        <option value="Bogura">Bogura</option>
+                        <option value="Naogaon">Naogaon</option>
+                        <option value="Chapainawabganj">Chapainawabganj</option>
+                        <option value="Shirajganj">Shirajganj</option>
+                        <option value="Joypurhat">Joypurhat</option>
+
+                        <option value="Khulna">Khulna</option>
+                        <option value="Bagerhat">Bagerhat</option>
+                        <option value="Chuadanga">Chuadanga</option>
+                        <option value="Jessore">Jessore</option>
+                        <option value="Jhenaidah">Jhenaidah</option>
+                        <option value="Kushtia">Kushtia</option>
+                        <option value="Magura">Magura</option>
+                        <option value="Meherpur">Meherpur</option>
+                        <option value="Narail">Narail</option>
+                        <option value="Shatkhira">Shatkhira</option>
+
+                        <option value="Barisal">Barisal</option>
+                        <option value="Barguna">Barguna</option>
+                        <option value="Bhola">Bhola</option>
+                        <option value="Jhalokati">Jhalokati</option>
+                        <option value="Patuakhali">Patuakhali</option>
+                        <option value="Pirojpur">Pirojpur</option>
+
+                        <option value="Sylhet">Sylhet</option>
+                        <option value="Shunamganj">Shunamganj</option>
+                        <option value="Habiganj">Habiganj</option>
+                        <option value="Moulvibazar">Moulvibazar</option>
+
+                        <option value="Rangpur">Rangpur</option>
+                        <option value="Dinajpur">Dinajpur</option>
+                        <option value="Kurigram">Kurigram</option>
+                        <option value="Nilfamai">Nilfamai</option>
+                        <option value="Panchagarh">Panchagarh</option>
+                        <option value="Thakurgaon">Thakurgaon</option>
+                        <option value="Lalmonirhat">Lalmonirhat</option>
+                        <option value="Gaibandha">Gaibandha</option>
+
+                        <option value="Mymensingh">Mymensingh</option>
+                        <option value="Sherpur">Sherpur</option>
+                        <option value="Jamalpur">Jamalpur</option>
+                        <option value="Netrokona">Netrokona</option>
+                    </select><br><br>
+
+                    <label>Course*</label><br>
+                    <select name="course" required>
+                        <option value="">--Select One--</option>
+                        <option value="Web Development">Web Development</option>
+                        <option value="Graphics Design">Graphics Design</option>
+                        <option value="Digital Marketing">Digital Marketing</option>
+                        <option value="SEO">SEO</option>
+                        <option value="Others">Others</option>
+                    </select><br><br>
+
+                    <label>Student Name*</label><br>
+                    <input type="text" name="student_name" required placeholder="Tofayel Ahmed"><br><br>
+
+                    <label>Father Name*</label><br>
+                    <input type="text" name="father_name" required placeholder="Father Name"><br><br>
+
+                    <label>Mother Name*</label><br>
+                    <input type="text" name="mother_name" required placeholder="Mother Name"><br><br>
+
+                    <div style="border: 1px solid #ccc; padding: 10px; width: 350px; background-color: #f8f8f8;">
+                        <label style="font-weight: bold;">Date of Birth*</label>
+                        <br><br>
+                        <label style="margin-right: 10px;">Day:</label>
+                        <label style="margin-left: 50px;">Month:</label>
+                        <label style="margin-left: 50px;">Year:</label>
+                        <br>
+                        <select style="width: 100px; margin-right: 5px;">
+                            <option value="">Select</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                
+                        <select style="width: 100px; margin-right: 5px;">
+                            <option>Select</option>
+                            <option value="January">January</option>
+                            <option value="February">February</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="September">September</option>
+                            <option value="October">October</option>
+                            <option value="November">November</option>
+                            <option value="December">December</option>
+                        </select>
+                
+                        <select style="width: 100px;">
+                            <option value="">Select</option>
+                            <option value="1950">1950</option>
+                            <option value="1951">1951</option>
+                            <option value="1952">1952</option>
+                            <option value="1953">1953</option>
+                            <option value="1954">1954</option>
+                            <option value="1955">1955</option>
+                            <option value="1956">1956</option>
+                            <option value="1957">1957</option>
+                            <option value="1958">1958</option>
+                            <option value="1959">1959</option>
+                            <option value="1960">1960</option>
+                            <option value="1961">1961</option>
+                            <option value="1962">1962</option>
+                            <option value="1963">1963</option>
+                            <option value="1964">1964</option>
+                            <option value="1965">1965</option>
+                            <option value="1966">1966</option>
+                            <option value="1967">1967</option>
+                            <option value="1968">1968</option>
+                            <option value="1969">1969</option>
+                            <option value="1970">1970</option>
+                            <option value="1971">1971</option>
+                            <option value="1972">1972</option>
+                            <option value="1973">1973</option>
+                            <option value="1974">1974</option>
+                            <option value="1975">1975</option>
+                            <option value="1976">1976</option>
+                            <option value="1977">1977</option>
+                            <option value="1978">1978</option>
+                            <option value="1979">1979</option>
+                            <option value="1980">1980</option>
+                            <option value="1981">1981</option>
+                            <option value="1982">1982</option>
+                            <option value="1983">1983</option>
+                            <option value="1984">1984</option>
+                            <option value="1985">1985</option>
+                            <option value="1986">1986</option>
+                            <option value="1987">1987</option>
+                            <option value="1988">1988</option>
+                            <option value="1989">1989</option>
+                            <option value="1990">1990</option>
+                            <option value="1991">1991</option>
+                            <option value="1992">1992</option>
+                            <option value="1993">1993</option>
+                            <option value="1994">1994</option>
+                            <option value="1995">1995</option>
+                            <option value="1996">1996</option>
+                            <option value="1997">1997</option>
+                            <option value="1998">1998</option>
+                            <option value="1999">1999</option>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                            <option value="2003">2003</option>
+                            <option value="2004">2004</option>
+                            <option value="2005">2005</option>
+                            <option value="2006">2006</option>
+                            <option value="2007">2007</option>
+                            <option value="2008">2008</option>
+                            <option value="2009">2009</option>
+                            <option value="2010">2010</option>
+                            <option value="2011">2011</option>
+                            <option value="2012">2012</option>
+                            <option value="2013">2013</option>
+                            <option value="2014">2014</option>
+                            <option value="2015">2015</option>
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                        </select>
+                    </div>
+                
+                    <label>Gender*</label><br>
+                    <input type="radio" name="gender" value="Male" required> Male <br>
+                    <input type="radio" name="gender" value="Female"> Female <br><br>
+
+                    <label>Physically Handicapped*</label><br>
+                    <input type="radio" name="handicapped" value="Yes" required> Yes <br>
+                    <input type="radio" name="handicapped" value="No"> No <br><br>
+
+                    <label>Email*</label><br>
+                    <input type="email" name="email" required placeholder="username@domain.extention">
+                    <p>(e.g: example@mail.com)
+                    </p>
+
+                    <label>Phone (Must be 11 Digits)*</label><br>
+                    <input type="text" name="phone" pattern="\d{11}" required placeholder="01000000000"><br>
+                    <p>(e.g: 0155123456)</p>
+                </form>
+            </td>
+
+            <!-- Right Column (Additional Information) -->
+            <td style="width: 50%; vertical-align: top; padding: 10px;">
+                <form action="#" method="POST" enctype="multipart/form-data">
+
+                    <label>Identification Type**</label><br>
+                    <select name="IdentificationType" required>
+                        <option value="">--Select One--</option>
+                        <option value="NID">NID</option>
+                        <option value="Passport">Passport</option>  
+                        <option value="Birth Certificate">Birth Certificate</option>
+                        <option value="Driving License">Driving License</option>
+                        <option value="Others">Others</option>
+                    </select>
+                    <p>Identification No. (Must be 10 digits for new NID or 17 digits for old NID. If your National ID is 13 digits, then please add your birth year with the ID as prefix. Example: 1980XXXXXXXXXXXXX)*
+                    </p>
+                    
+                    <label>Identification No.*</label><br>
+                    <input type="text" name="nid" required><br><br>
+
+                    <label>Home District*</label><br>
+                    <select name="home_district" required>
+                        <option value="">--Select One--</option>
+                        
+                        <option value="Dhaka">Dhaka</option>
+                        <option value="Gazipur">Gazipur</option>
+                        <option value="KishoreGanj">KishoreGanj</option>
+                        <option value="ManikGanj">ManikGanj</option>
+                        <option value="MunshiGanj">MunshiGanj</option>
+                        <option value="NarayanGanj">NarayanGanj</option>
+                        <option value="Narshingdi">Narshingdi</option>
+                        <option value="Tangail">Tangail</option>
+                        <option value="Faridpur">Faridpur</option>
+                        <option value="Gopalganj">Gopalganj</option>
+                        <option value="Madaripur">Madaripur</option>
+                        <option value="Rajbari">Rajbari</option>
+                        <option value="Shariatpur">Shariatpur</option>
+
+                        <option value="Chittagong">Chittagong</option>
+                        <option value="Brahmanbaria">Brahmanbaria</option>
+                        <option value="Comilla">Comilla</option>
+                        <option value="Chandpur">Chandpur</option>
+                        <option value="Laksmipur">Laksmipur</option>
+                        <option value="Maijdee">Maijdee</option>
+                        <option value="Feni">Feni</option>
+                        <option value="Khagrachhari">Khagrachhari</option>
+                        <option value="Rangamati">Rangamati</option>
+                        <option value="Bandarban">Bandarban</option>
+                        <option value="Cox's Bazar">Cox's Bazar</option>
+
+                        <option value="Rjashahi">Rjashahi</option>
+                        <option value="Natore">Natore</option>
+                        <option value="Pabna">Pabna</option>
+                        <option value="Bogura">Bogura</option>
+                        <option value="Naogaon">Naogaon</option>
+                        <option value="Chapainawabganj">Chapainawabganj</option>
+                        <option value="Shirajganj">Shirajganj</option>
+                        <option value="Joypurhat">Joypurhat</option>
+
+                        <option value="Khulna">Khulna</option>
+                        <option value="Bagerhat">Bagerhat</option>
+                        <option value="Chuadanga">Chuadanga</option>
+                        <option value="Jessore">Jessore</option>
+                        <option value="Jhenaidah">Jhenaidah</option>
+                        <option value="Kushtia">Kushtia</option>
+                        <option value="Magura">Magura</option>
+                        <option value="Meherpur">Meherpur</option>
+                        <option value="Narail">Narail</option>
+                        <option value="Shatkhira">Shatkhira</option>
+
+                        <option value="Barisal">Barisal</option>
+                        <option value="Barguna">Barguna</option>
+                        <option value="Bhola">Bhola</option>
+                        <option value="Jhalokati">Jhalokati</option>
+                        <option value="Patuakhali">Patuakhali</option>
+                        <option value="Pirojpur">Pirojpur</option>
+
+                        <option value="Sylhet">Sylhet</option>
+                        <option value="Shunamganj">Shunamganj</option>
+                        <option value="Habiganj">Habiganj</option>
+                        <option value="Moulvibazar">Moulvibazar</option>
+
+                        <option value="Rangpur">Rangpur</option>
+                        <option value="Dinajpur">Dinajpur</option>
+                        <option value="Kurigram">Kurigram</option>
+                        <option value="Nilfamai">Nilfamai</option>
+                        <option value="Panchagarh">Panchagarh</option>
+                        <option value="Thakurgaon">Thakurgaon</option>
+                        <option value="Lalmonirhat">Lalmonirhat</option>
+                        <option value="Gaibandha">Gaibandha</option>
+
+                        <option value="Mymensingh">Mymensingh</option>
+                        <option value="Sherpur">Sherpur</option>
+                        <option value="Jamalpur">Jamalpur</option>
+                        <option value="Netrokona">Netrokona</option>
+                    </select><br><br>
+
+                    <label>Upazila*</label><br>
+                    <select name="upazila" required>
+                        <option value="">--Select One--</option>
+                        
+                            <!-- Dhaka Division -->
+                            <option value="Dhamrai">Dhamrai</option>
+                            <option value="Dohar">Dohar</option>
+                            <option value="Keraniganj">Keraniganj</option>
+                            <option value="Nawabganj">Nawabganj</option>
+                            <option value="Savar">Savar</option>
+                            <option value="Gazipur Sadar">Gazipur Sadar</option>
+                            <option value="Kaliakair">Kaliakair</option>
+                            <option value="Kaliganj">Kaliganj</option>
+                            <option value="Kapasia">Kapasia</option>
+                            <option value="Sreepur">Sreepur</option>
+                            <option value="Bhairab">Bhairab</option>
+                            <option value="Hossainpur">Hossainpur</option>
+                            <option value="Itna">Itna</option>
+                            <option value="Karimganj">Karimganj</option>
+                            <option value="Katiadi">Katiadi</option>
+                            <option value="Kishoreganj Sadar">Kishoreganj Sadar</option>
+                            <option value="Bajitpur">Bajitpur</option>
+                            <option value="Manikganj Sadar">Manikganj Sadar</option>
+                            <option value="Singair">Singair</option>
+                            <option value="Shibalaya">Shibalaya</option>
+                            <option value="Munshiganj Sadar">Munshiganj Sadar</option>
+                            <option value="Tongibari">Tongibari</option>
+                            <option value="Narshingdi Sadar">Narshingdi Sadar</option>
+                            <option value="Tangail Sadar">Tangail Sadar</option>
+                            <option value="Mirzapur">Mirzapur</option>
+                            
+                            <!-- Chittagong Division -->
+                            <option value="Anwara">Anwara</option>
+                            <option value="Banshkhali">Banshkhali</option>
+                            <option value="Fatikchhari">Fatikchhari</option>
+                            <option value="Lohagara">Lohagara</option>
+                            <option value="Patiya">Patiya</option>
+                            <option value="Cox's Bazar Sadar">Cox's Bazar Sadar</option>
+                            <option value="Ramu">Ramu</option>
+                            <option value="Khagrachhari Sadar">Khagrachhari Sadar</option>
+                            <option value="Rangamati Sadar">Rangamati Sadar</option>
+                            <option value="Bandarban Sadar">Bandarban Sadar</option>
+                        
+                            <!-- Rajshahi Division -->
+                            <option value="Rajshahi Sadar">Rajshahi Sadar</option>
+                            <option value="Bagha">Bagha</option>
+                            <option value="Paba">Paba</option>
+                            <option value="Natore Sadar">Natore Sadar</option>
+                            <option value="Pabna Sadar">Pabna Sadar</option>
+                            <option value="Ishwardi">Ishwardi</option>
+                        
+                            <!-- Khulna Division -->
+                            <option value="Khulna Sadar">Khulna Sadar</option>
+                            <option value="Bagerhat Sadar">Bagerhat Sadar</option>
+                            <option value="Jessore Sadar">Jessore Sadar</option>
+                            <option value="Jhenaidah Sadar">Jhenaidah Sadar</option>
+                        
+                            <!-- Barisal Division -->
+                            <option value="Barisal Sadar">Barisal Sadar</option>
+                            <option value="Pirojpur Sadar">Pirojpur Sadar</option>
+                            <option value="Bhola Sadar">Bhola Sadar</option>
+                        
+                            <!-- Sylhet Division -->
+                            <option value="Sylhet Sadar">Sylhet Sadar</option>
+                            <option value="Moulvibazar Sadar">Moulvibazar Sadar</option>
+                        
+                            <!-- Rangpur Division -->
+                            <option value="Rangpur Sadar">Rangpur Sadar</option>
+                            <option value="Dinajpur Sadar">Dinajpur Sadar</option>
+                        
+                            <!-- Mymensingh Division -->
+                            <option value="Mymensingh Sadar">Mymensingh Sadar</option>
+                            <option value="Jamalpur Sadar">Jamalpur Sadar</option>
+                        
+                        
+                    </select><br><br>
+
+                    <label>Village/House No./Road No./Other Alternative*</label><br>
+                    <input type="text" name="address" required><br><br>
+
+                    <label>Post Office*</label><br>
+                    <input type="text" name="post_office" required><br><br>
+
+                    <label>Educational Qualification*</label><br>
+                    <select name="qualification" required>
+                        <option value="">--Select One--</option>
+                        <option value="HSC">HSC</option>
+                        <option value="Diploma">Diploma</option>
+                        <option value="Graduation">Graduation</option>
+                        <option value="Post Graduation">Post Graduation</option>
+                        <option value="Others">Others</option>
+                    </select><br><br>
+
+                    <label>Have any computer?*</label><br>
+                    <input type="radio" name="computer" value="Yes" required> Yes <br>
+                    <input type="radio" name="computer" value="No"> No <br><br>
+
+                    <label>Photograph*</label><br>
+                    <input type="file" name="photo" required placeholder="Upload your photo"><br>
+                    <p>(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</p>
+
+                    <label>Signature*</label><br>
+                    <input type="file" name="signature" required placeholder="Upload your signature"><br>
+                    <p>(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</p>
+
+                    <button type="submit">Submit Data</button>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
