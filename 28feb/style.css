@@ -1,0 +1,14 @@
+.left-column{
+    width: 50%;
+    vertical-align: top;
+    padding: 10px;
+    border-right: 2px solid black;
+}
+h2{
+    color: #EC8701;
+}
+.right-column{
+    width: 50%;
+    vertical-align: top;
+    padding: 10px;
+}
