@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: tiro;
+    box-sizing: border-box;
+}
+
+body{
+    width: 875px;
+    margin: 0 auto;
+    height: 300vh;
+}
+
+/* Fonts  */
+
+@font-face {
+    font-family: barkat;
+    src: url(./fonts/Li\ Shohid\ Barkat\ Unicode.ttf);
+}
+
+@font-face {
+    font-family: tiro;
+    src: url(./fonts/TiroBangla-Regular.ttf);
+}
+
+
+/* Main Style  */
+
+
+/* Header top  */
+.logo a img{
+    width: 200px;
+    height: 45px;
+}
+.header-top {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    border-right: 1px solid gray;
+    
+}
+
+.header-content img {
+    height: 50px;
+    width: 50px;
+    padding-right: 5px;
+}
+
+/* Navbar  */
+.header-nav-part{
+    position: sticky;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid gray;
+    height: 60px;
+   
+}
+
+
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 5px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    margin-left: 15px;
+    padding: 19px 10px;
+    border-left: 1px solid gray;
+}
+
+.lang {
+    background: #f4e1e1;
+    
+}
+
+.icon i {
+    font-size: 18px;
+}
+.page-header-container{
+    padding: 20px;
+    align-items: center;
+}
+.page-header{
+    height: 80px;
+    align-items: center;
+}
+.page-header h1 {
+    color: red;
+}
+.page-header p {
+    color: #0000008f;
+}
+
+/* Main  */
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+article{
+    padding-right: 15px;
+}
+
+/* Footer  */
+.footer-menu-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-logo{
+    margin: 0 auto;
+}
+
+.footer-menu{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu .nav-links li{
+    padding: 5px;
+}
+
+.social-handle{
+    margin: 15px auto;
+    text-align: center;
+}
+.social-icons a{
+    font-size: 24px;
+    padding: 20px;
+
+}
+.social-icons img{
+    height: 24px;
+}
+.social-icons a{
+    font-style: none;
+
+}
+.fa-youtube{
+color: red;
+}
+
+.fa-x-twitter{
+    color: #000;
+}
+.fa-facebook{
+    color: #0b00a5;
+}
+.fa-instagram{
+    color: #a5005b;
+}
+
+
+.app-downloader{
+    margin: 0 auto;
+    text-align: center;
+}
+.app-downloader-links a img{
+    width: 140px;
+    height: 50px;
+    padding: 5PX;
+}
+.copyright{
+    text-align: center;
+}
